@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">爱扽NAS测试</string>
+    <string-array name="groups">
+        <item>标准标签</item>
+        <item>NAS标签</item>
+    </string-array>
+    <string-array name="child">
+        <item>14443</item>
+        <item>15693</item>
+    </string-array>
+</resources>
