@@ -1,14 +1,14 @@
-package com.example.nascounter;
+package com.example.tester;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Normal_15693Activity extends AppCompatActivity {
+public class Normal_14443Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_normal_15693);
+        setContentView(R.layout.activity_normal_14443);
     }
 }

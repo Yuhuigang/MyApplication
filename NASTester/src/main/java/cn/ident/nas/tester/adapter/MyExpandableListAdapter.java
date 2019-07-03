@@ -1,4 +1,4 @@
-package com.example.nascounter.adapter;
+package com.example.tester.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
-
-import com.example.nascounter.R;
+import com.example.tester.R;
 
 public class MyExpandableListAdapter extends BaseExpandableListAdapter {
     private Context mContext;

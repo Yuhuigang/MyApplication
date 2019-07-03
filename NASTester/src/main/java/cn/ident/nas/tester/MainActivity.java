@@ -1,15 +1,11 @@
-package com.example.nascounter;
+package com.example.tester;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
-
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
-
-import com.example.nascounter.adapter.MyExpandableListAdapter;
+import com.example.tester.adapter.MyExpandableListAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private String[] groups={"标准标签","NAS标签"};
