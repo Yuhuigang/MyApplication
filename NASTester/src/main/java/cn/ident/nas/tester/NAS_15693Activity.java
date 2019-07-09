@@ -1,8 +1,10 @@
-package com.example.tester;
+package cn.ident.nas.tester;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import cn.ident.nas.tester.R;
 
 public class NAS_15693Activity extends AppCompatActivity {
 

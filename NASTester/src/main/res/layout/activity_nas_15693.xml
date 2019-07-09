@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NAS_15693Activity">
+    tools:context="cn.ident.nas.tester.NAS_15693Activity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

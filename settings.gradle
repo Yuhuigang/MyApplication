@@ -1,1 +1,1 @@
-include ':app', ':nascounter'
+include ':app', ':NASTester'

@@ -4,11 +4,11 @@
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/tv_child"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:text="child"
-        android:textSize="16sp"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        android:gravity="center"/>
+        android:textSize="@dimen/font_button_size"
+        android:paddingBottom="@dimen/button_paddingButtom"
+        android:paddingRight="@dimen/button_paddingRight"
+        android:gravity="right|bottom"/>
 </LinearLayout>

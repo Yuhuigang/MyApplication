@@ -1,13 +1,16 @@
-package com.example.tester.adapter;
+package cn.ident.nas.tester.adapter;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
-import com.example.tester.R;
-
+import cn.ident.nas.tester.R;
+/**
+ * 二级列表适配器
+ */
 public class MyExpandableListAdapter extends BaseExpandableListAdapter {
     private Context mContext;
     private String[] groups={"标准标签","NAS标签"};
@@ -55,7 +58,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
     public boolean hasStableIds() {
         return true;
     }
-
+    //主项视图
     @Override
     public View getGroupView(int i, boolean b, View view, ViewGroup viewGroup) {
         GroupViewHolder groupViewHolder;
@@ -70,7 +73,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
         groupViewHolder.tv_group.setText(groups[i]);
         return view;
     }
-
+    //子列表项视图
     @Override
     public View getChildView(int i, int i1, boolean b, View view, ViewGroup viewGroup) {
         ChildViewHolder childViewHolder;
@@ -91,17 +94,5 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
         return true;
     }
 
-    private String[][] getTwoDimensionalArray(String[] array) {
-        String[][] twoDimensionalArray = null;
-        for (int i = 0; i < array.length; i++) {
-            String[] tempArray = array[i].split(",");
-            if (twoDimensionalArray == null) {
-                twoDimensionalArray = new String[array.length][tempArray.length];
-            }
-            for (int j = 0; j < tempArray.length; j++) {
-                twoDimensionalArray[i][j] = tempArray[j];
-            }
-        }
-        return twoDimensionalArray;
-    }
+
 }

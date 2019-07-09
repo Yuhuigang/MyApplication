@@ -1,4 +1,4 @@
-package com.example.tester;
+package cn.ident.nas.tester;
 
 import androidx.appcompat.app.AppCompatActivity;
 

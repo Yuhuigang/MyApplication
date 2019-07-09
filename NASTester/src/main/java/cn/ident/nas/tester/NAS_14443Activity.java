@@ -1,9 +1,11 @@
-package com.example.tester;
+package cn.ident.nas.tester;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import cn.ident.nas.tester.R;
 
 public class NAS_14443Activity extends AppCompatActivity {
     @Override
